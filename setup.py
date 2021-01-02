@@ -19,7 +19,7 @@ setup_requires = ['setuptools', 'numpy']
 install_requires = ['numpy', 'scipy', 'tensorflow', 'pytest', 'h5py']
 
 setup(
-    name='DataScienceProjects',
+    name='data_science_projects',
     version=__version__,
     classifiers=[
         #   1 - Planning
@@ -37,8 +37,8 @@ setup(
     author=__author__,
     author_email=__email__,
     license=__copyright__,
-    packages=['DataScienceProjects'],
-    package_dir={'DataScienceProjects': 'python'},
+    packages=['data_science_projects'],
+    package_dir={'data_science_projects': 'python'},
     zip_safe=False,
     setup_requires=setup_requires,
     install_requires=install_requires

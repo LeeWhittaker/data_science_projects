@@ -1,6 +1,6 @@
 import h5py
 import numpy as np
-from DataScienceProjects.simple_neural_net import *
+from data_science_projects.simple_neural_net import *
 
 def initialization_results():
 

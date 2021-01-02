@@ -1,4 +1,4 @@
-from DataScienceProjects.simple_neural_net import *
+from data_science_projects.simple_neural_net import *
 from test_cases import *
 from test_results import *
 from pytest import approx
