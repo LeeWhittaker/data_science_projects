@@ -241,7 +241,7 @@ layer_dims = [n_x, 20, 7, 5, 1]
 
 init_scale = 1.0/np.sqrt(layer_dims)
 
-parameters = L_layer_model(train_x, train_y, layer_dims, seed=1, init_scale=init_scale, print_cost=100, batch_size=None, update='momentum', beta=0.0)
+parameters = L_layer_model(train_x, train_y, layer_dims, seed=1, init_scale=init_scale, print_cost=100, batch_size=None, optimize='momentum', beta=0.0)
 
 pred_train, accuracy_train = predict(train_x, train_y, parameters, accuracy=True)
 
