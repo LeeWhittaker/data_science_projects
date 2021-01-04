@@ -686,7 +686,9 @@ def L_layer_model(X, Y, layers_dims, learning_rate=0.0075, max_iter=2500, niter_
     print_cost -- how often to output the cost to screen (number of iterations)
 
     Returns:
-    W_all -- list of weight matrices for each layer
+    parameters -- python dictionary containing your parameters:
+                    Wl -- weight matrix for layer l. Numpy array (layer_dims[l], layer_dims[l-1])
+                    bl -- bias vector for layer l. Numpy array (layer_dims[l], 1)
     """
     
     time0 = time.time()
