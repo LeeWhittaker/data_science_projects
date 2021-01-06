@@ -2,6 +2,8 @@
 
 >This repository contains various Jupyter notebooks that I have worked on while trying to learn about machine learning and data cleaning in the context of data science.
 
+**NOTE: If you have trouble viewing the notebooks on GitHub, please try copying and pasting the URL for the notebook into https://nbviewer.jupyter.org/**
+
 There are currently two Python scripts that are used in the notebooks that can be installed using the ```setup.py``` script. These are ```simple_neural_net.py``` and ```tensorflow_neural_net.py```, which are contained in the ```python``` folder.
 
 To install these, you can run
