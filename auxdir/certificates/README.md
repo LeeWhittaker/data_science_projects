@@ -22,7 +22,7 @@ Courses within this specialization:
 
 ### Audited
 
-Currently, I have audited four courses within [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python). These are
+I have audited three courses within [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python). These are
 * [Introduction to Data Science in Python](https://www.coursera.org/learn/python-data-analysis?specialization=data-science-python)
     * This course introduces data manipulation with Python, data processing with Pandas, and working with messy data.
 * [Applied Plotting, Charting & Data Representation in Python](https://www.coursera.org/learn/python-plotting?specialization=data-science-python)
