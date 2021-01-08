@@ -2,7 +2,7 @@ import tensorflow as tf
 
 def L_layer_model(X, Y, layer_dims, activations, cost, optimizer='adam', learning_rate=0.001,
                   epochs=10000, rel_tol=1.0e-5, lambd=0.0, beta_1=0.9, beta_2=0.999,
-                  epsilon=1e-7, batch_size=32, seed=1, verbose=False):
+                  epsilon=1e-7, batch_size=32, batch_norm=True, seed=1, verbose=False):
     """
     Reworking of simple_neural_net using the Keras API within tensorflow.
     Note - This is not yet as mature as simple_neural_net
@@ -22,6 +22,7 @@ def L_layer_model(X, Y, layer_dims, activations, cost, optimizer='adam', learnin
     beta2 -- the RMS propagation parameter if using adaptive moments
     epsilon -- smoothing term to avoid division by ~0 when using adaptive momements or RMS propagation
     batch_size -- integer giving requested batch size
+    batch_norm -- include batch normalization
     seed -- random seed
     verbose -- set verbosity
 
@@ -42,6 +43,10 @@ def L_layer_model(X, Y, layer_dims, activations, cost, optimizer='adam', learnin
         model.add(tf.keras.layers.Dense(layer_dims[i], activation=activations[i],
                                         kernel_initializer=Init,
                                         kernel_regularizer=regularizer))
+        if batch_norm and i<len(layer_dims)-1:
+            model.add(tf.keras.layers.BatchNormalization())
+            # Adds batch normalization after activation of previous layer
+            # To use before activation use model.add(tf.keras.layers.Activation(activations[i]))
 
     if optimizer=='adam':
         Opt = tf.keras.optimizers.Adam(learning_rate=learning_rate, beta_1=beta_1, beta_2=beta_2, epsilon=epsilon)
