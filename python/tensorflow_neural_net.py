@@ -51,8 +51,10 @@ def L_layer_model(X, Y, layer_dims, activations, cost, optimizer='adam', learnin
     if optimizer=='adam':
         Opt = tf.keras.optimizers.Adam(learning_rate=learning_rate, beta_1=beta_1, beta_2=beta_2, epsilon=epsilon)
         
-    if cost=='entropy':
-        loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+    if cost=='sparse_entropy':
+        loss = tf.keras.losses.SparseCategoricalCrossentropy()
+    if cost=='binary_entropy':
+        loss = tf.keras.losses.BinaryCrossentropy()
     if cost=='mse':
         loss = tf.keras.losses.MeanSquaredError()
 
