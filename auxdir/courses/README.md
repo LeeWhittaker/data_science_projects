@@ -30,3 +30,8 @@ I have audited three courses within [Applied Data Science with Python Specializa
     * Here, we learn about the pronciples of information visualization, charting, and applied visualizations.
 * [Applied Machine Learning in Python](https://www.coursera.org/learn/python-machine-learning?specialization=data-science-python)
     * We are introduced to the fundamentals of machine learning with SciKit Learn, supervised learning, and model evaluation and selection
+    
+I have audited these courses from [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice) (Note, I intend on getting certificates for these courses once I have completed all of the necessary tasks)
+* [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow)
+    * This course provides an introduction to using TensorFlow for constructing neural networks and convolutional neural networks 
+  
