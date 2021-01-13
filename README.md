@@ -11,7 +11,7 @@ To install these, you can run
 python setup.py install --user
 ```
 
-They are used in the ```simple_nn_with_mushrooms.pynb``` and ```tensorflow_with_medical_insurance.ipynb``` within the ```notebooks/my_projects``` folder.
+They are used in the ```simple_nn_with_mushrooms.pynb```, ```tensorflow_with_medical_insurance.ipynb```, and ```HR_Analytics.ipynb``` within the ```notebooks/my_projects``` folder.
 
 ```simple_neural_net.py``` is a set of Python functions that I wrote while doing the [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning) Coursera course, which is part of the [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning).
 
