@@ -27,9 +27,11 @@ I have audited three courses within [Applied Data Science with Python Specializa
 * [Introduction to Data Science in Python](https://www.coursera.org/learn/python-data-analysis?specialization=data-science-python)
     * This course introduces data manipulation with Python, data processing with Pandas, and working with messy data.
 * [Applied Plotting, Charting & Data Representation in Python](https://www.coursera.org/learn/python-plotting?specialization=data-science-python)
-    * Here, we learn about the pronciples of information visualization, charting, and applied visualizations.
+    * Here, we learn the principles of information visualization, charting, and applied visualizations.
 * [Applied Machine Learning in Python](https://www.coursera.org/learn/python-machine-learning?specialization=data-science-python)
     * We are introduced to the fundamentals of machine learning with SciKit Learn, supervised learning, and model evaluation and selection
+* [Applied Text Mining in Python](https://www.coursera.org/learn/python-text-mining?specialization=data-science-python)
+   * Currently doing this course! Introduction to text mining and the basics of text manipulation.
     
 I have audited these courses from [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice) (Note, I intend on getting certificates for these courses once I have completed all of the necessary tasks)
 * [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow)
